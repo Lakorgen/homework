@@ -15,30 +15,51 @@
             <legend>ФИО</legend>
             <label>
                 Фамилия
-                <input type="text">
+                <input type="text" placeholder="Иванов" required>
             </label>
             <label>
                 Имя
-                <input type="text">
+                <input type="text" placeholder="Иван" required>
             </label>
             <label>
                 Отчество
-                <input type="text">
+                <input type="text" placeholder="Иванович">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Данные</legend>
+            <label>
+                Логин
+                <input type="text" placeholder="username" required>
+            </label>
+            <label>
+                Пароль
+                <input type="password" placeholder="123456" required>
+            </label>
+            <label>
+                Дата рождения
+                <input type="date" required>
             </label>
         </fieldset>
         <fieldset>
             <legend>Контакты</legend>
             <label>
                 Телефон
-                <input type="text">
+                <input type="tel" placeholder="+79998887766" required>
             </label>
             <label>
                 Email
-                <input type="text">
+                <input type="email" placeholder="123@gmail.com" required>
             </label>
         </fieldset>
         <fieldset>
             <legend>Кнопки</legend>
+            
+            <label>
+                <input type="checkbox" required>
+                Согласны ли вы на обработку данных
+            </label>
+            <br>
             <button type="submit">Отправить</button>
             <button type="reset">Очистить</button>
         </fieldset>

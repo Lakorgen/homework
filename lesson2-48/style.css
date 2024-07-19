@@ -1,0 +1,14 @@
+body{
+    background: #dcdcdc;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+}
+.form{
+    background: #fff;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 50px 30px;
+    border: 1px #000 solid;
+}

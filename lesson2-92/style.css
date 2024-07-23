@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body--fixed{
+    overflow-y: hidden;
+}
+
+.modal{
+    position: fixed;
+    background:#000000c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.modal--open{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.modal__window{
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    width: 70vw;
+    height: 70vh;
+    border-radius: 16px;
+    overflow: auto;
+}
+
+.modal__btn-close{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}

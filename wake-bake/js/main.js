@@ -85,6 +85,7 @@
 
             const accordionControl = e.target.closest('.accordion-list__control');
             if (!accordionControl) return
+            e.preventDefault()
             const accordionItem = accordionControl.parentElement;
             const accordionContent = accordionControl.nextElementSibling;
 
@@ -104,6 +105,73 @@
 
     });
 
+    // Слайдер-галерея
+
+    new Swiper('.gallery__slider', {
+
+        spaceBetween: 15,
+        slidesPerView: 1.5,
+        
+
+        pagination: {
+            el: '.gallery__pagination',
+            type: 'fraction',
+        },
+
+        navigation: {
+            nextEl: '.gallery__next',
+            prevEl: '.gallery__prev',
+        },
+
+        breakpoints: {
+            601: {
+                slidesPerView: 3,
+            },
+            801: {
+                spaceBetween: 32,
+            },
+            1101: {
+                slidesPerView: 4,
+            }
+        }
+    });
+
+    // Слайдер-галерея
+
+    new Swiper('.testimonials__slider', {
+
+        spaceBetween: 0,
+        slidesPerView: 1,
+        centeredSlides: true,
+
+        navigation: {
+            nextEl: '.testimonials__next',
+            prevEl: '.testimonials__prev',
+        },
+
+        scrollbar: {
+            el: '.testimonials__scrollbar',
+            draggable: true,
+        },
+
+        breakpoints: {
+            901: {
+                slidesPerView: 1.5,
+            },
+            1201: {
+                slidesPerView: 2.1,
+            },
+        }
+
+    });
+
+
+    // Маска для телефона
+
+    const telInputs = document.querySelectorAll('input[type="tel"]')
+
+    const im = new Inputmask('+7 (999) 999-99-99');
+    im.mask(telInputs)
 })()
 
 

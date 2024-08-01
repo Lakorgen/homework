@@ -20,23 +20,23 @@
                         <nav class="header__nav nav">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link">Process</a>
+                                    <a href="#how" class="nav__link">Process</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link">Benefits</a>
+                                    <a href="#capabilities" class="nav__link">Benefits</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link">Services</a>
+                                    <a href="#testimonial" class="nav__link">Services</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link">Portfolio</a>
+                                    <a href="#portfolio" class="nav__link">Portfolio</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link">FAQ</a>
+                                    <a href="#faq" class="nav__link">FAQ</a>
                                 </li>
                             </ul>
                         </nav>
-                        <a href="#" class="header__button button">Get Started</a>
+                        <a href="#pricing" class="header__button button">Get Started</a>
                         <a class="burger-icon" href="#">
                             <span></span>
                         </a>
@@ -53,7 +53,7 @@
                                 We increase revenue and ensure sustainable long-term growth for your business through
                                 powerful Webflow websites.
                             </p>
-                            <a href="#" class="hero__button button">Book A Meeting</a>
+                            <a href="#pricing" class="hero__button button">Book A Meeting</a>
                             <div class="hero__brands-text">TRUSTED BY AMAZING BRANDS</div>
                             <ul class="hero__brands-list">
                                 <li class="hero__brands-item">
@@ -264,7 +264,7 @@
             </div>
         </header>
         <main class="main">
-            <section class="main__how how">
+            <section id="how" class="main__how how">
                 <div class="container">
                     <div class="how__inner">
                         <div class="how__top">
@@ -272,7 +272,7 @@
                             <h2 class="how__title">Get a dedicated design team at fraction of the cost.</h2>
                             <p class="how__text">Grow your brand with high-quality design for a flat monthly fee. Work
                                 with senior designers. Subscribe and make as many requests as you need - no limits.</p>
-                            <a href="#" class="how__button button">See Pricing</a>
+                            <a href="#pricing" class="how__button button">See Pricing</a>
                         </div>
                         <ul class="how__cards">
                             <li class="how__cards-item">
@@ -318,7 +318,7 @@
                 </div>
             </section>
 
-            <section class="main_portfolio portfolio">
+            <section id="portfolio" class="main_portfolio portfolio">
                 <div class="container">
                     <div class="portfolio__inner">
                         <h2 class="portfolio__title">Our Beautiful Works</h2>
@@ -371,7 +371,7 @@
             </section>
 
 
-            <section class="main__capabilities capabilities">
+            <section id="capabilities" class="main__capabilities capabilities">
                 <div class="container">
                     <div class="capabilities__inner">
                         <div class="capabilities__top">
@@ -439,7 +439,7 @@
                                 calls like a Creative Director. We partner with you to ensure that your design elevates
                                 your brand to new levels.
                             </p>
-                            <a href="#" class="capabilities__content-button button">See Pricing</a>
+                            <a href="#pricing" class="capabilities__content-button button">See Pricing</a>
                         </div>
                         <ul class="capabilities__cards-list">
                             <li class="capabilities__cards-item">
@@ -555,7 +555,7 @@
                 </div>
             </section>
 
-            <section class="main__testimonial testimonial">
+            <section id="testimonial" class="main__testimonial testimonial">
                 <div class="container">
                     <div class="testimonial__inner">
                         <p class="testimonial__subtitle">
@@ -671,7 +671,7 @@
                 </div>
             </section>
 
-            <section class="main__pricing pricing">
+            <section id="pricing" class="main__pricing pricing">
                 <div class="container">
                     <div class="pricing__inner">
                         <p class="pricing__subtitle">Clear & Simple Pricing</p>
@@ -684,7 +684,8 @@
                             <div class="pricing__wrapper swiper-wrapper">
                                 <div class="pricing__item swiper-slide">
                                     <h6 class="pricing__item-title">Standard</h6>
-                                    <p class="pricing__item-text">One request at a time. For companies who need on-going design support.
+                                    <p class="pricing__item-text">One request at a time. For companies who need on-going
+                                        design support.
                                     </p>
                                     <div class="price">
                                         <p class="price__cost">$2,995/m</p>
@@ -800,7 +801,8 @@
                                 <div class="pricing__item swiper-slide">
                                     <h6 class="pricing__item-title">Basic - Weekly</h6>
                                     <p class="pricing__item-text">
-                                        Perfect if you want to try the subscription out or only have a few one-off tasks.
+                                        Perfect if you want to try the subscription out or only have a few one-off
+                                        tasks.
 
                                     </p>
                                     <div class="price">
@@ -854,7 +856,7 @@
                                     <a href="#" class="pricing__call-button button button--black">Book A Call</a>
                                     <a href="#" class="pricing__buy-button button">Click to buy</a>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <!-- <ul class="pricing__list">
@@ -1146,14 +1148,319 @@
                             </li>
 
                         </ul>
-                        <a href="#" class="blog__button button button--black">Load More</a>
+                        <a href="#" id="toggleButton" class="blog__button button button--black">Load More</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="faq" class="main__faq faq">
+                <div class="container">
+                    <div class="faq__inner">
+                        <h2 class="faq__title">
+                            FAQ's
+                        </h2>
+                        <p class="faq__text">
+                            Providing answers to your questions
+                        </p>
+                        <ul class="accordion-list">
+                            <li class="accordion-list__item">
+                                <button class="accordion-list__control" type="button">
+                                    <h3 class="accordion-list__control-title">
+                                        Do you have specific princing plans to show?
+                                    </h3>
+                                    <div class="accordion-list__control-icon">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="#111204" />
+                                        </svg>
+                                    </div>
+                                </button>
+                                <div class="accordion-list__content">
+                                    <div class="accordion-content">
+                                        <p class="accordion-content__text">
+                                            Donec rutrum, mauris at blandit convallis, orci nulla volutpat sapien, id
+                                            pulvinar leo ligula eget nunc. In quis magna magna. Nullam mattis eget.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-list__item">
+                                <button class="accordion-list__control" type="button">
+                                    <h3 class="accordion-list__control-title">
+                                        How many years of experience do you have?
+                                    </h3>
+                                    <div class="accordion-list__control-icon">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="#111204" />
+                                        </svg>
+                                    </div>
+                                </button>
+                                <div class="accordion-list__content">
+                                    <div class="accordion-content">
+                                        <p class="accordion-content__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
+                                            adipisci laborum molestias tempore harum eligendi quod commodi quae officia
+                                            soluta sunt amet eveniet corporis? Quasi similique ratione illum dolore
+                                            omnis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-list__item">
+                                <button class="accordion-list__control" type="button">
+                                    <h3 class="accordion-list__control-title">
+                                        What companies have you worked with?
+                                    </h3>
+                                    <div class="accordion-list__control-icon">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="#111204" />
+                                        </svg>
+                                    </div>
+                                </button>
+                                <div class="accordion-list__content">
+                                    <div class="accordion-content">
+                                        <p class="accordion-content__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, culpa
+                                            placeat fugit esse ea a voluptate ex corrupti mollitia, sit quam
+                                            voluptatibus et vitae porro doloremque? Ipsam maxime nam sequi, porro
+                                            inventore in voluptates eveniet, et nulla quis corrupti animi aspernatur
+                                            vero placeat, dolor odit! Eaque quis, laboriosam dolorem blanditiis modi
+                                            quisquam, ducimus excepturi, sit voluptatibus asperiores velit. Ullam illum
+                                            iure sapiente perferendis vero libero, et, quaerat quia natus minima itaque
+                                            ipsa autem consectetur numquam ab laboriosam obcaecati non fugit provident
+                                            nostrum quidem neque molestias explicabo. Nesciunt nemo pariatur assumenda
+                                            error iste minima rem voluptatum, nisi, debitis optio magnam iusto.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-list__item">
+                                <button class="accordion-list__control" type="button">
+                                    <h3 class="accordion-list__control-title">
+                                        Am I safe leaving my company in your hands?
+                                    </h3>
+                                    <div class="accordion-list__control-icon">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.59529 8.49111L0.495602 1.32135C0.262718 1.08682 0.26351 0.705902 0.496394 0.472163C0.729404 0.238413 1.10775 0.238413 1.33995 0.472944L8.01825 7.21535L14.6958 0.472944C14.928 0.238413 15.3055 0.237632 15.5393 0.472163C15.6566 0.589423 15.7144 0.742114 15.7144 0.897148C15.7144 1.05062 15.6566 1.20409 15.5401 1.32135L8.44042 8.49111C8.32805 8.60444 8.17608 8.66739 8.01825 8.66739C7.85964 8.66739 7.70766 8.60365 7.59529 8.49111Z"
+                                                fill="#111204" />
+                                        </svg>
+                                    </div>
+                                </button>
+                                <div class="accordion-list__content">
+                                    <div class="accordion-content">
+                                        <p class="accordion-content__text">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem fugiat commodi
+                                            numquam, ea earum ipsam sequi iusto molestias ipsum officiis. Unde maiores,
+                                            mollitia dolorem quis minima omnis temporibus, perspiciatis officia animi
+                                            neque expedita illo quos ducimus eligendi accusamus tenetur inventore minus.
+                                            Nesciunt reiciendis inventore modi doloremque non, rem cupiditate dolor.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="faq-form">
+                            <textarea type="text" class="faq-form__textarea"
+                                placeholder="Ask us what you want to know..."></textarea>
+                            <p class="faq-form__text">
+                                We will answer your questions via email within 48 hours.
+                            </p>
+                            <button type="submit" class="faq-form__button">Send</button>
+                        </form>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <h2 class="footer__title">
+                        Become part of the design revolution
+                    </h2>
+                    <p class="footer__text">
+                        Jump on a membership and start
+                        requesting designs right away!
+                    </p>
+                    <a href="#pricing" class="footer__button button">
+                        See Pricing
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.74257 0C3.93416 0 0 3.93416 0 8.74257C0 13.551 3.93416 17.4851 8.74257 17.4851C13.551 17.4851 17.4851 13.551 17.4851 8.74257C17.4851 3.93416 13.551 0 8.74257 0ZM11.9773 9.35455L9.35455 11.9773C9.00485 12.327 8.4803 12.327 8.13059 11.9773C7.78089 11.6276 7.78089 11.1031 8.13059 10.7534L9.26713 9.61683H6.1198C5.59525 9.61683 5.24554 9.26713 5.24554 8.74257C5.24554 8.21802 5.59525 7.86831 6.1198 7.86831H9.26713L8.13059 6.73178C7.78089 6.38208 7.78089 5.85752 8.13059 5.50782C8.4803 5.15812 9.00485 5.15812 9.35455 5.50782L11.9773 8.13059C12.327 8.4803 12.327 9.00485 11.9773 9.35455Z"
+                                fill="#111204" />
+                        </svg>
 
+                    </a>
+                </div>
+                <div class="footer__body">
+                    <div class="footer-content">
+                        <a href="/" class="footer-content__logo">
+                            <img src="img/logo.svg" alt="Логотип компании">
+                        </a>
+                        <p class="footer-content__text">
+                            Kornix - the leading digital agency based in the UK, working with top-tier clients, from
+                            start-ups to enterprises.
+                        </p>
+                    </div>
+                    <address class="footer__address">
+                        <div class="footer__email">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.66797 4.9987C1.66797 4.55667 1.84356 4.13275 2.15612 3.82019C2.46868 3.50763 2.89261 3.33203 3.33464 3.33203H16.668C17.11 3.33203 17.5339 3.50763 17.8465 3.82019C18.159 4.13275 18.3346 4.55667 18.3346 4.9987V14.9987C18.3346 15.4407 18.159 15.8646 17.8465 16.1772C17.5339 16.4898 17.11 16.6654 16.668 16.6654H3.33464C2.89261 16.6654 2.46868 16.4898 2.15612 16.1772C1.84356 15.8646 1.66797 15.4407 1.66797 14.9987V4.9987Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M1.66797 6.66797L7.9188 11.6688C8.50988 12.1417 9.24432 12.3994 10.0013 12.3994C10.7583 12.3994 11.4927 12.1417 12.0838 11.6688L18.3346 6.66797"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                            <a href="mailto:info@kronix.com">info@kronix.com</a>
+                        </div>
+                        <div class="footer__phone">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_2391)">
+                                    <path
+                                        d="M8.79454 5.19823L5.97538 1.94407C5.65038 1.56907 5.05454 1.57073 4.67704 1.94907L2.35871 4.27157C1.66871 4.9624 1.47121 5.98823 1.87038 6.81073C4.25506 11.7482 8.23708 15.7358 13.1712 18.1274C13.9929 18.5266 15.0179 18.3291 15.7079 17.6382L18.0479 15.2941C18.427 14.9149 18.4279 14.3157 18.0495 13.9907L14.7829 11.1866C14.4412 10.8932 13.9104 10.9316 13.5679 11.2749L12.4312 12.4132C12.373 12.4742 12.2964 12.5144 12.2132 12.5277C12.1299 12.5409 12.0446 12.5265 11.9704 12.4866C10.1124 11.4166 8.5712 9.87343 7.50371 8.01407C7.46373 7.93969 7.44926 7.85426 7.4625 7.77086C7.47575 7.68747 7.51599 7.61073 7.57704 7.5524L8.71038 6.41823C9.05371 6.07323 9.09121 5.5399 8.79454 5.1974V5.19823Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_2391">
+                                        <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            <a href="tel:00112313435"> (001) 1231 3435</a>
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <div class="footer__facebook">
+                                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.03202 12.0003V3.31231C2.03202 2.72565 2.16002 2.20831 2.41602 1.76031C2.68268 1.31231 3.04535 0.960312 3.50402 0.704312C3.97335 0.448312 4.51202 0.320312 5.12002 0.320312C5.58935 0.320312 5.98935 0.400312 6.32002 0.560312C6.65068 0.720312 6.96002 0.949645 7.24802 1.24831L6.11202 2.38431C5.98402 2.25631 5.84535 2.15498 5.69602 2.08031C5.54668 2.00565 5.35468 1.96831 5.12002 1.96831C4.69335 1.96831 4.36268 2.08565 4.12802 2.32031C3.90402 2.54431 3.79202 2.86965 3.79202 3.29631V12.0003H2.03202ZM0.192017 5.92031V4.32031H6.11202V5.92031H0.192017Z"
+                                                fill="#111204" />
+                                        </svg>
+                                        </dib>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.465 1.066C8.638 1.012 9.012 1 12 1C14.988 1 15.362 1.013 16.534 1.066C17.706 1.119 18.506 1.306 19.206 1.577C19.939 1.854 20.604 2.287 21.154 2.847C21.714 3.396 22.146 4.06 22.422 4.794C22.694 5.494 22.88 6.294 22.934 7.464C22.988 8.639 23 9.013 23 12C23 14.988 22.987 15.362 22.934 16.535C22.881 17.705 22.694 18.505 22.422 19.205C22.146 19.9391 21.7133 20.6042 21.154 21.154C20.604 21.714 19.939 22.146 19.206 22.422C18.506 22.694 17.706 22.88 16.536 22.934C15.362 22.988 14.988 23 12 23C9.012 23 8.638 22.987 7.465 22.934C6.295 22.881 5.495 22.694 4.795 22.422C4.06092 22.146 3.39582 21.7133 2.846 21.154C2.28638 20.6047 1.85331 19.9399 1.577 19.206C1.306 18.506 1.12 17.706 1.066 16.536C1.012 15.361 1 14.987 1 12C1 9.012 1.013 8.638 1.066 7.466C1.119 6.294 1.306 5.494 1.577 4.794C1.85372 4.06008 2.28712 3.39531 2.847 2.846C3.39604 2.2865 4.06047 1.85344 4.794 1.577C5.494 1.306 6.294 1.12 7.464 1.066H7.465ZM16.445 3.046C15.285 2.993 14.937 2.982 12 2.982C9.063 2.982 8.715 2.993 7.555 3.046C6.482 3.095 5.9 3.274 5.512 3.425C4.999 3.625 4.632 3.862 4.247 4.247C3.88205 4.60205 3.60118 5.03428 3.425 5.512C3.274 5.9 3.095 6.482 3.046 7.555C2.993 8.715 2.982 9.063 2.982 12C2.982 14.937 2.993 15.285 3.046 16.445C3.095 17.518 3.274 18.1 3.425 18.488C3.601 18.965 3.882 19.398 4.247 19.753C4.602 20.118 5.035 20.399 5.512 20.575C5.9 20.726 6.482 20.905 7.555 20.954C8.715 21.007 9.062 21.018 12 21.018C14.938 21.018 15.285 21.007 16.445 20.954C17.518 20.905 18.1 20.726 18.488 20.575C19.001 20.375 19.368 20.138 19.753 19.753C20.118 19.398 20.399 18.965 20.575 18.488C20.726 18.1 20.905 17.518 20.954 16.445C21.007 15.285 21.018 14.937 21.018 12C21.018 9.063 21.007 8.715 20.954 7.555C20.905 6.482 20.726 5.9 20.575 5.512C20.375 4.999 20.138 4.632 19.753 4.247C19.3979 3.88207 18.9657 3.60121 18.488 3.425C18.1 3.274 17.518 3.095 16.445 3.046ZM10.595 15.391C11.3797 15.7176 12.2534 15.7617 13.0669 15.5157C13.8805 15.2697 14.5834 14.7489 15.0556 14.0422C15.5278 13.3356 15.7401 12.4869 15.656 11.6411C15.572 10.7953 15.197 10.005 14.595 9.405C14.2112 9.02148 13.7472 8.72781 13.2363 8.54515C12.7255 8.36248 12.1804 8.29536 11.6405 8.34862C11.1006 8.40187 10.5792 8.57418 10.1138 8.85313C9.64845 9.13208 9.25074 9.51074 8.9493 9.96185C8.64786 10.413 8.45019 10.9253 8.37052 11.462C8.29084 11.9986 8.33115 12.5463 8.48854 13.0655C8.64593 13.5847 8.91648 14.0626 9.28072 14.4647C9.64496 14.8668 10.0938 15.1832 10.595 15.391ZM8.002 8.002C8.52702 7.47697 9.15032 7.0605 9.8363 6.77636C10.5223 6.49222 11.2575 6.34597 12 6.34597C12.7425 6.34597 13.4777 6.49222 14.1637 6.77636C14.8497 7.0605 15.473 7.47697 15.998 8.002C16.523 8.52702 16.9395 9.15032 17.2236 9.8363C17.5078 10.5223 17.654 11.2575 17.654 12C17.654 12.7425 17.5078 13.4777 17.2236 14.1637C16.9395 14.8497 16.523 15.473 15.998 15.998C14.9377 17.0583 13.4995 17.654 12 17.654C10.5005 17.654 9.06234 17.0583 8.002 15.998C6.94166 14.9377 6.34597 13.4995 6.34597 12C6.34597 10.5005 6.94166 9.06234 8.002 8.002ZM18.908 7.188C19.0381 7.06527 19.1423 6.91768 19.2143 6.75397C19.2863 6.59027 19.3248 6.41377 19.3274 6.23493C19.33 6.05609 19.2967 5.87855 19.2295 5.71281C19.1622 5.54707 19.0624 5.39651 18.936 5.27004C18.8095 5.14357 18.6589 5.04376 18.4932 4.97652C18.3275 4.90928 18.1499 4.87598 17.9711 4.87858C17.7922 4.88119 17.6157 4.91965 17.452 4.9917C17.2883 5.06374 17.1407 5.1679 17.018 5.298C16.7793 5.55103 16.6486 5.88712 16.6537 6.23493C16.6588 6.58274 16.7992 6.91488 17.0452 7.16084C17.2911 7.40681 17.6233 7.54723 17.9711 7.5523C18.3189 7.55737 18.655 7.42669 18.908 7.188Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.429 8.969H13.143V10.819C13.678 9.755 15.05 8.799 17.111 8.799C21.062 8.799 22 10.917 22 14.803V22H18V15.688C18 13.475 17.465 12.227 16.103 12.227C14.214 12.227 13.429 13.572 13.429 15.687V22H9.429V8.969ZM2.57 21.83H6.57V8.799H2.57V21.83ZM7.143 4.55C7.14315 4.88528 7.07666 5.21724 6.94739 5.52659C6.81812 5.83594 6.62865 6.11651 6.39 6.352C5.9064 6.83262 5.25181 7.10165 4.57 7.1C3.88939 7.09954 3.23631 6.8312 2.752 6.353C2.51421 6.11671 2.32539 5.83582 2.19634 5.52643C2.0673 5.21704 2.00058 4.88522 2 4.55C2 3.873 2.27 3.225 2.753 2.747C3.23689 2.26816 3.89024 1.9997 4.571 2C5.253 2 5.907 2.269 6.39 2.747C6.872 3.225 7.143 3.873 7.143 4.55Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_2380)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M12 0C5.375 0 0 5.375 0 12C0 18.625 5.375 24 12 24C18.612 24 24 18.625 24 12C24 5.375 18.612 0 12 0ZM19.926 5.531C21.4035 7.33034 22.2211 9.5809 22.243 11.909C21.905 11.844 18.521 11.154 15.111 11.584C15.032 11.414 14.967 11.232 14.889 11.05C14.6769 10.5494 14.4515 10.0546 14.213 9.566C17.987 8.03 19.705 5.818 19.926 5.531ZM12 1.771C14.603 1.771 16.985 2.746 18.794 4.347C18.612 4.607 17.063 6.677 13.419 8.043C11.739 4.959 9.879 2.433 9.592 2.043C10.3813 1.85869 11.1894 1.76707 12 1.77V1.771ZM7.64 2.733C7.913 3.098 9.735 5.636 11.44 8.655C6.65 9.931 2.42 9.905 1.965 9.905C2.629 6.729 4.777 4.087 7.64 2.733ZM1.744 12.013V11.701C2.187 11.714 7.158 11.779 12.274 10.243C12.573 10.816 12.846 11.401 13.106 11.987C12.976 12.026 12.833 12.065 12.703 12.104C7.419 13.809 4.607 18.468 4.373 18.859C2.68041 16.9805 1.7438 14.5415 1.744 12.013ZM12 22.256C9.631 22.256 7.445 21.449 5.714 20.096C5.896 19.718 7.978 15.709 13.757 13.692C13.783 13.679 13.797 13.679 13.822 13.666C15.267 17.401 15.852 20.538 16.009 21.436C14.772 21.97 13.419 22.256 12 22.256ZM17.714 20.499C17.61 19.874 17.063 16.881 15.722 13.197C18.937 12.69 21.748 13.523 22.1 13.64C21.657 16.49 20.017 18.95 17.714 20.499Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_2380">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer__bottom">
+                    <nav class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#how" class="nav__link">Process</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#capabilities" class="nav__link">Benefits</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#testimonial" class="nav__link">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#portfolio" class="nav__link">Portfolio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#faq" class="nav__link">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__copy">
+                        © 2023 shantogfx - All Right Reserved
+                    </div>
+                </div>
+            </div>
         </footer>
+    </div>
+    <div class="modal">
+        <div class="modal__window">
+            <a class="modal__cancel" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.75781 17.2433L12.0008 12.0003L17.2438 17.2433M17.2438 6.75732L11.9998 12.0003L6.75781 6.75732"
+                        stroke="#E1D9E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <rect x="0.75" y="0.75" width="22.5" height="22.5" rx="11.25" stroke="#E1D9E1" stroke-width="1.5" />
+                </svg>
+            </a>
+            <img class="modal__img" src="img/decor/cupcakes-modal.png" alt="">
+            <h3 class="modal__title">
+                Submit your application
+            </h3>
+            <form class="modal__form">
+                    <input class="field__input" type="email" placeholder="E-mail">
+                <button class="modal__button button" type="submit">
+                    Buy
+                </button>
+            </form>
+        </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>

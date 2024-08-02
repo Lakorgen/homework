@@ -1461,10 +1461,11 @@ html {
 
     .testimonial__wrapper {
         max-width: 800px;
+        height: 427px;
     }
 
     .testimonial__slide {
-        padding: 30px 20px;
+        padding: 50px 30px;
         max-width: 800px;
         gap: 15px;
     }
@@ -1567,22 +1568,25 @@ html {
 @media (max-width: 1000px) {
     .testimonial__wrapper {
         max-width: 600px;
+        height: 500px;
     }
-
-    .testimonial__slide {
-        padding: 30px 20px;
+    
+    .testimonial__wrapper .testimonial__slide {
+        
         max-width: 600px;
-        gap: 15px;
+        height: 500px;
+        gap: 30px;
+        flex-direction: column-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
     }
 
     .slide__content {
         max-width: none;
-        /* min-height: 400px; */
         text-align: center;
         align-items: center;
-
+        justify-content: space-around;
+        height: 100%;
     }
 
     .slide__logo {
@@ -1590,11 +1594,15 @@ html {
     }
 
     .slide__img {
-        display: none;
+        width: 220px;
+        height: 220px;
     }
+
+   
 
     .slide__title {
         font-size: 18px;
+        margin-bottom: 30px;
     }
 
     .slide__text {
@@ -1719,6 +1727,11 @@ html {
         max-width: 300px;
     }
 
+    .slide__img {
+        width: 160px;
+        height: 160px;
+    }
+
 
     .pricing__item-title {
         font-size: 24px;
@@ -1836,16 +1849,18 @@ html {
     }
 
     .slider {
-        gap: 5px;
+        gap: 15px;
     }
 
     .testimonial__wrapper {
-        max-width: 250px;
+        /* max-width: 250px; */
+        height: 600px;
     }
 
-    .testimonial__slide {
-        padding: 10px 5px;
-        max-width: 250px;
+    .testimonial__wrapper .testimonial__slide {
+        /* padding: 10px 5px; */
+        /* max-width: 250px; */
+        height: 600px;
     }
 
     .slide__content {
@@ -1933,6 +1948,19 @@ html {
 
     .hero__brands-link svg {
         height: 30px;
+    }
+
+    .slider {
+        gap: 10px;
+    }
+
+    .testimonial__wrapper {
+        max-width: 250px;
+    }
+
+    .testimonial__slide {
+        /* padding: 10px 5px; */
+        max-width: 250px;
     }
 
     .footer-content__text {

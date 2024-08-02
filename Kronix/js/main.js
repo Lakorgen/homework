@@ -41,7 +41,7 @@
     // Слайдер тарифов
     const swiper2 = new Swiper('.pricing__slider', {
         // Optional parameters
-        autoHeight: true,
+        // autoHeight: false,
         direction: 'horizontal',
         slidesPerView: 3,
         slidesPerView: "auto",
